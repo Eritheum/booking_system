@@ -1,0 +1,32 @@
+{
+  "name": "pms_dev",
+  "version": "1.0.0",
+  "description": "Developemental build",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Eritheum/PMS_Dev.git"
+  },
+  "author": "Eric Nguyen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Eritheum/PMS_Dev/issues"
+  },
+  "homepage": "https://github.com/Eritheum/PMS_Dev#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-graphql": "^0.12.0",
+    "graphql": "^15.5.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.13.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
