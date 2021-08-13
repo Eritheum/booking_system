@@ -1,0 +1,9 @@
+{
+
+   "env": {
+      "MONGO_USER": "eritheum",
+      "MONGO_PASSWORD": "XEvi9EQ1ipL6FvIu",
+      "MONGO_DB": "first_project"
+   }
+
+}
