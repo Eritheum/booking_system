@@ -1,0 +1,42 @@
+.modal {
+  width: 80%;
+  background: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  top: 20vh;
+  left: 5%;
+  align-items: center;
+ 
+}
+
+.modal__header {
+  padding: 1rem;
+  width: 25rem;
+  background: #5101d1;
+  color: white;
+}
+
+.modal__header h1 {
+  margin: 0;
+  font-size: 1.25rem;
+}
+
+.modal__content {
+  padding: 1rem;
+  background: white;
+  margin-top: 3rem;
+  width: 25rem;
+}
+
+.modal__actions {
+  padding: 1rem;
+  background: white;
+  width: 25rem;
+  margin-top: 20rem;
+}
+
+@media (min-width: 1024px) {
+  .modal {
+    width: 30rem;
+    left: calc((100% - 30rem) / 2);
+  }
+}

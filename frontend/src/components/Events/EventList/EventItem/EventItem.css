@@ -1,0 +1,21 @@
+.event__list-item {
+   margin: 1rem 0;
+   padding: 0.5rem;
+   border: 1px solid #5101d1;
+   display: fixed;
+   justify-items: space-between;
+ }
+.event__list-item h1 {
+   margin: 0;
+   font-size: 1.5rem;
+   color: tomato;
+}
+.event__list-item h2 {
+   margin: 0;
+   font-size: 1rem;
+   color: grey;
+}
+.btn__display {
+   text-align: right;
+   display: inherit;
+}
